@@ -26,7 +26,7 @@ app.listen(port);
 
 app.get('/users/data',(req,res)=>{
     
-    res.status(200).send(JSON.stringify({user:'liuyc'},undefined,2))
+    res.status(200).send(JSON.stringify({user:'clusterUser_t4rulz_clustert4'},undefined,2))
 })
 
 // app.get('/k8s',(req,res)=>{
